@@ -1,0 +1,46 @@
+{
+    "name": "String",
+    "description": "A bot for Generating String Session of Telegram Account mostly for Userbots.",
+    "repository": "https://github.com/jokokendi/Strings",
+    "logo": "https://telegra.ph/file/9d25c6bc85a8bfcca98df.jpg",
+    "keywords": [
+        "python",
+        "telegram"
+    ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "env": {
+        "APP_NAME": {
+            "description": "Heroku App Name",
+            "value": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, untuk buat string.",
+            "value": "",
+            "required": true
+        },
+        "API_KEY": {
+            "description": "Akun Heroku API Key dapatkan di https://dashboard.heroku.com/account ",
+            "value": "",
+            "required": true
+        },
+        "API_ID": {
+            "description": "Dapatkan di https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Dapatkan di https://my.telegram.org",
+            "value": "",
+            "required": true
+        }
+    }
+}

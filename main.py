@@ -24,7 +24,7 @@ Support: @kenkanasw
             
 <code>STRING_SESSION</code>: <code>{}</code>
 
-⚠️ <b>Tolong hati-hati untuk melewati nilai ini untuk pihak ketiga</b>"""
+⚠️ <b>Tolong berhati-hatilah jangan berikan nilai ini untuk pihak ketiga</b>"""
 
 
 print(docs)

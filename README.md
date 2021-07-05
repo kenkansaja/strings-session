@@ -1,5 +1,7 @@
 # strings-session
-Script untuk replit
+
+t untuk telethon
+p untuk pyrogram
 
 # SILAHKAN KLIK
 

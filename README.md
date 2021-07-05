@@ -1,6 +1,7 @@
 # strings-session
 
 t untuk telethon
+
 p untuk pyrogram
 
 # SILAHKAN KLIK
